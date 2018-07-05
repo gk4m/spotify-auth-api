@@ -4,8 +4,7 @@ import middleware from './middleware';
 import routes from './routes';
 
 const app = express();
-
-app.listen(config.port);
+app.listen(process.env.PORT || config.port);
 
 middleware(app, express);
 
