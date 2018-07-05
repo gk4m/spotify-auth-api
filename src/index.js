@@ -4,12 +4,14 @@ import middleware from './middleware';
 import routes from './routes';
 
 const app = express();
-app.listen(process.env.PORT || config.port);
+const port = process.env.PORT || config.port;
+
+app.listen(port);
 
 middleware(app, express);
 
 routes(app);
 
-console.log(`Listen on port: ${config.port}`);
+console.log(`Listen on port: ${port}`);
 
 export default app;
