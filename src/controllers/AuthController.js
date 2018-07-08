@@ -21,7 +21,6 @@ const AuthController = {
   },
 
   callback: function (req, res) {
-    console.log('callback')
     const code = req.query.code || null;
     const state = req.query.state || null;
 
