@@ -10,5 +10,5 @@ export default {
   clientSecret: '755c207f6cd24a56b3d9bd7a10cf28fc',
   redirectUri: 'https://stark-harbor-25810.herokuapp.com/callback',
 
-  scope: 'user-read-private user-read-email user-read-birthdate user-read-playback-state user-modify-playback-state user-library-read playlist-read-private streaming playlist-modify-public user-library-modify'
+  scope: 'user-read-private user-read-email user-read-birthdate user-read-playback-state user-modify-playback-state user-library-read playlist-read-private streaming playlist-modify-public playlist-modify-private user-library-modify ugc-image-upload'
 }
