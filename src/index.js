@@ -13,5 +13,3 @@ middleware(app, express);
 routes(app);
 
 console.log(`Listen on port: ${port}`);
-
-export default app;
